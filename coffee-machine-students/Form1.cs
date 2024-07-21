@@ -35,6 +35,7 @@ namespace coffee_machine_students
 
 			if (File.Exists(XML_FILE_PATH))
 			{
+
 				try
 				{
 					xmlDoc.Load(XML_FILE_PATH);
